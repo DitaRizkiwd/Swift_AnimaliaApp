@@ -32,6 +32,7 @@
 		522D21302BDF44EE0029013C /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D212F2BDF44EE0029013C /* AnimalListItemView.swift */; };
 		522D21322BDF503B0029013C /* OctagonImageFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D21312BDF503B0029013C /* OctagonImageFrame.swift */; };
 		522D21342BDF5D1E0029013C /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D21332BDF5D1E0029013C /* AnimalGridItemView.swift */; };
+		522D21362BDF60C30029013C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D21352BDF60C30029013C /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		522D212F2BDF44EE0029013C /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		522D21312BDF503B0029013C /* OctagonImageFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctagonImageFrame.swift; sourceTree = "<group>"; };
 		522D21332BDF5D1E0029013C /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		522D21352BDF60C30029013C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				522D20F52BDF32870029013C /* ContentView.swift */,
+				522D21352BDF60C30029013C /* MainView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				522D20F62BDF32870029013C /* ContentView.swift in Sources */,
 				522D212E2BDF43D30029013C /* AnimalModel.swift in Sources */,
 				522D21252BDF37F20029013C /* CoverImageView.swift in Sources */,
+				522D21362BDF60C30029013C /* MainView.swift in Sources */,
 				522D21322BDF503B0029013C /* OctagonImageFrame.swift in Sources */,
 				522D212B2BDF39D40029013C /* Bundle+Ext.swift in Sources */,
 				522D20F42BDF32870029013C /* AnimaliaApp.swift in Sources */,
