@@ -51,9 +51,9 @@
 		522D20F22BDF32870029013C /* Animalia */ = {
 			isa = PBXGroup;
 			children = (
-				522D20F32BDF32870029013C /* AnimaliaApp.swift */,
-				522D20F52BDF32870029013C /* ContentView.swift */,
-				522D20F72BDF32880029013C /* Assets.xcassets */,
+				522D21012BDF328F0029013C /* App */,
+				522D21022BDF32970029013C /* View */,
+				522D21032BDF329F0029013C /* Resources */,
 				522D20F92BDF32880029013C /* Preview Content */,
 			);
 			path = Animalia;
@@ -65,6 +65,30 @@
 				522D20FA2BDF32880029013C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		522D21012BDF328F0029013C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				522D20F32BDF32870029013C /* AnimaliaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		522D21022BDF32970029013C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				522D20F52BDF32870029013C /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		522D21032BDF329F0029013C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				522D20F72BDF32880029013C /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
