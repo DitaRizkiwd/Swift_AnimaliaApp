@@ -25,6 +25,9 @@
 		522D211F2BDF35CD0029013C /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 522D21142BDF35CD0029013C /* ostrich.mp4 */; };
 		522D21202BDF35CD0029013C /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 522D21152BDF35CD0029013C /* rhino.mp4 */; };
 		522D21212BDF35CD0029013C /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 522D21162BDF35CD0029013C /* zebra.mp4 */; };
+		522D21252BDF37F20029013C /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D21242BDF37F20029013C /* CoverImageView.swift */; };
+		522D21282BDF38EE0029013C /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D21272BDF38EE0029013C /* CoverImageModel.swift */; };
+		522D212B2BDF39D40029013C /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D212A2BDF39D40029013C /* Bundle+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		522D21142BDF35CD0029013C /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
 		522D21152BDF35CD0029013C /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
 		522D21162BDF35CD0029013C /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
+		522D21242BDF37F20029013C /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		522D21272BDF38EE0029013C /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		522D212A2BDF39D40029013C /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,10 @@
 		522D20F22BDF32870029013C /* Animalia */ = {
 			isa = PBXGroup;
 			children = (
+				522D21292BDF39830029013C /* Extensions */,
+				522D21222BDF37950029013C /* Modules */,
 				522D21012BDF328F0029013C /* App */,
-				522D21022BDF32970029013C /* View */,
+				522D21022BDF32970029013C /* Main */,
 				522D21032BDF329F0029013C /* Resources */,
 				522D20F92BDF32880029013C /* Preview Content */,
 			);
@@ -103,12 +111,12 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		522D21022BDF32970029013C /* View */ = {
+		522D21022BDF32970029013C /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				522D20F52BDF32870029013C /* ContentView.swift */,
 			);
-			path = View;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		522D21032BDF329F0029013C /* Resources */ = {
@@ -147,6 +155,39 @@
 				522D21162BDF35CD0029013C /* zebra.mp4 */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		522D21222BDF37950029013C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				522D21262BDF38410029013C /* Models */,
+				522D21232BDF37B20029013C /* Screen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		522D21232BDF37B20029013C /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				522D21242BDF37F20029013C /* CoverImageView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		522D21262BDF38410029013C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				522D21272BDF38EE0029013C /* CoverImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		522D21292BDF39830029013C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				522D212A2BDF39D40029013C /* Bundle+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				522D20F62BDF32870029013C /* ContentView.swift in Sources */,
+				522D21252BDF37F20029013C /* CoverImageView.swift in Sources */,
+				522D212B2BDF39D40029013C /* Bundle+Ext.swift in Sources */,
 				522D20F42BDF32870029013C /* AnimaliaApp.swift in Sources */,
+				522D21282BDF38EE0029013C /* CoverImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
