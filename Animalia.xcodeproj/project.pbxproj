@@ -12,6 +12,8 @@
 		5214165B2BE0920F00DA8568 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214165A2BE0920F00DA8568 /* VideoPlayerView.swift */; };
 		5214165D2BE096A800DA8568 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214165C2BE096A800DA8568 /* VideoListItemView.swift */; };
 		5214165F2BE0991200DA8568 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214165E2BE0991200DA8568 /* WatchView.swift */; };
+		521416612BE09DF000DA8568 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521416602BE09DF000DA8568 /* GalleryView.swift */; };
+		521416642BE09E2600DA8568 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521416632BE09E2600DA8568 /* MotionAnimationView.swift */; };
 		522D20F42BDF32870029013C /* AnimaliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D20F32BDF32870029013C /* AnimaliaApp.swift */; };
 		522D20F62BDF32870029013C /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D20F52BDF32870029013C /* BrowseView.swift */; };
 		522D20F82BDF32880029013C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522D20F72BDF32880029013C /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		5214165A2BE0920F00DA8568 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		5214165C2BE096A800DA8568 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		5214165E2BE0991200DA8568 /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
+		521416602BE09DF000DA8568 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		521416632BE09E2600DA8568 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		522D20F02BDF32870029013C /* Animalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522D20F32BDF32870029013C /* AnimaliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaliaApp.swift; sourceTree = "<group>"; };
 		522D20F52BDF32870029013C /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
@@ -143,6 +147,14 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		521416622BE09E0C00DA8568 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				521416632BE09E2600DA8568 /* MotionAnimationView.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
 		522D20E72BDF32870029013C = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +209,7 @@
 				522D20F52BDF32870029013C /* BrowseView.swift */,
 				522D21352BDF60C30029013C /* MainView.swift */,
 				5214165E2BE0991200DA8568 /* WatchView.swift */,
+				521416602BE09DF000DA8568 /* GalleryView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -252,6 +265,7 @@
 		522D21232BDF37B20029013C /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				521416622BE09E0C00DA8568 /* Gallery */,
 				521416522BE08D7400DA8568 /* Watch */,
 				521416512BE08D5800DA8568 /* Browse */,
 			);
@@ -407,10 +421,12 @@
 				522D21442BDF94670029013C /* ExternalWebLinkView.swift in Sources */,
 				5214165F2BE0991200DA8568 /* WatchView.swift in Sources */,
 				522D21282BDF38EE0029013C /* CoverImageModel.swift in Sources */,
+				521416612BE09DF000DA8568 /* GalleryView.swift in Sources */,
 				521416562BE08F5D00DA8568 /* VideoModel.swift in Sources */,
 				522D21402BDF8B4D0029013C /* InsetMapView.swift in Sources */,
 				522D21302BDF44EE0029013C /* AnimalListItemView.swift in Sources */,
 				522D21342BDF5D1E0029013C /* AnimalGridItemView.swift in Sources */,
+				521416642BE09E2600DA8568 /* MotionAnimationView.swift in Sources */,
 				522D213C2BDF7F620029013C /* InsetGalleryView.swift in Sources */,
 				5214165B2BE0920F00DA8568 /* VideoPlayerView.swift in Sources */,
 			);
