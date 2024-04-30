@@ -18,7 +18,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Watch", systemImage: "play.rectangle")
                 }
-            Text("Map View")
+            MapView()
                 .tabItem {
                     Label("Location", systemImage: "map")
                 }
